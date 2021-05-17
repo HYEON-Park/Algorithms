@@ -29,7 +29,7 @@ public class Part12 {
 			} else {
 				for (int h = 0; h < cnt; h++) {
 					System.out.print("짝");
-				}
+				} 
 				System.out.print(" ");
 			}
 			
