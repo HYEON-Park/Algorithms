@@ -1,3 +1,5 @@
+package Algorithm_2205.src;
+
 import java.util.Scanner;
 
 class SumWhile { // p.27
