@@ -10,14 +10,12 @@ class SeqSearch {
 
         while (true) {
             if (i == n) {
-                if (i == n) {
-                    return -1;
-                }
-                if (a[i] == key) {
-                    return i;
-                }
-                i++;
+                return -1;
             }
+            if (a[i] == key) {
+                return i;
+            }
+            i++;
         }
     }
 
@@ -35,5 +33,11 @@ class SeqSearch {
         }
         System.out.println("검색할 값 : ");
         int ky = sc.nextInt();
+        int idx = SeqSearch(x, num, ky);
+
+        if (idx == -1)
+            System.out.println("그 값의 요소가 없습니다.");
+        else
+            System.out.println(ky + " 이 " + idx + " 에 있습니다.");
     }
 }
